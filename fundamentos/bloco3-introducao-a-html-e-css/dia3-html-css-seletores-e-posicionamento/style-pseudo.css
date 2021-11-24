@@ -6,3 +6,8 @@
     text-align:justify;
     margin-left: 50px;
 }
+
+li:hover{
+    background-color: cornflowerblue;
+}
+
