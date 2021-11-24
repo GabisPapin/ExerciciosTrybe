@@ -1,7 +1,8 @@
-h1{
-    
+.header{
+    text-align: center;
 }
 
-p{
-
+.toplist{
+    text-align:justify;
+    margin-left: 50px;
 }
