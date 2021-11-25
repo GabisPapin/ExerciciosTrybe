@@ -43,3 +43,8 @@ ul li:nth-of-type(3){
 #java{
     background-color: rgb(170, 90, 120);
 }
+
+ul li a:hover{
+    font-weight: bold;
+    background-color: green;
+}
