@@ -9,21 +9,19 @@ que será modificada no conteúdo*/
 div:nth-of-type(1){
     background-color:red;
     color:white;
-    font-style: bold;
     font-family: Arial;
 }
 
 div:nth-of-type(2){
     background-color:green;
     color:orange;
-    font-style: bold;
+    font-weight: bold;
     font-family: Arial;
 }
 
 div:nth-of-type(3){
     background-color: greenyellow;
     color:purple;
-    font-style: bold;
     font-family: Arial;
     font-size: 25px;
 }
@@ -31,17 +29,23 @@ div:nth-of-type(3){
 div:nth-of-type(4){
     background-color: darkolivegreen;
     color: silver;
-    font-style: bold;
+    font-weight:bold;
     font-family: Arial;
 }
 
 div:nth-of-type(5){
     background-color: lightblue;
     color: teal;
-    font-style: bold;
     font-family: Arial;
 }
 
-/* 4- Faça a terceira div ser maior que as demais*/
+div:nth-of-type(2n+1){
+    font-style: italic;
 
-/* 5- Deixe as tags ímpares h3 com o texto em itálico*/
+}
+
+/* div:nth-of-type() n = significa um número, 
+palavra-chave ou formula e o th = significa 
+a posição (número ordinais em inglês). :nth-child() = comando
+que seleciona o elemento que é n(numero)th(posição) filho
+dos pais link: https://www.w3schools.com/cssref/sel_nth-of-type.asp*/
