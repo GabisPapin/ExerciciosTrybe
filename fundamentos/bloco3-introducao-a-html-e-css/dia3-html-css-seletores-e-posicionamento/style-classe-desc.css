@@ -27,3 +27,15 @@ li{
 ol li{
     font-weight: bold;
 }
+
+ul li:nth-child(1){
+    color:blue;
+}
+
+ul li:nth-of-type(2){
+    color:blue;
+}
+
+ul li:nth-of-type(3){
+    color:blue;
+}
