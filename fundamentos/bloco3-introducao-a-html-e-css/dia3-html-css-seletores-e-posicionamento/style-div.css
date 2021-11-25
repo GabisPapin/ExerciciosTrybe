@@ -8,24 +8,38 @@ div:hover{
 que será modificada no conteúdo*/
 div:nth-of-type(1){
     background-color:red;
+    color:white;
+    font-style: bold;
+    font-family: Arial;
 }
 
 div:nth-of-type(2){
     background-color:green;
+    color:orange;
+    font-style: bold;
+    font-family: Arial;
 }
 
 div:nth-of-type(3){
     background-color: greenyellow;
+    color:purple;
+    font-style: bold;
+    font-family: Arial;
 }
 
 div:nth-of-type(4){
     background-color: darkolivegreen;
+    color: silver;
+    font-style: bold;
+    font-family: Arial;
 }
 
 div:nth-of-type(5){
     background-color: lightblue;
+    color: teal;
+    font-style: bold;
+    font-family: Arial;
 }
-/* 3- Estilize cada uma das tags h3*/
 
 /* 4- Faça a terceira div ser maior que as demais*/
 
