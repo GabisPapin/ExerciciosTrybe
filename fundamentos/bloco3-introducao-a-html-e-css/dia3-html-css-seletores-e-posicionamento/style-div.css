@@ -25,6 +25,7 @@ div:nth-of-type(3){
     color:purple;
     font-style: bold;
     font-family: Arial;
+    font-size: 25px;
 }
 
 div:nth-of-type(4){
