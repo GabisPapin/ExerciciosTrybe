@@ -1,0 +1,51 @@
+/*Para formar borda nos itens utilizando somente o comando div:hover*/
+div:hover{
+    border-style: groove;
+    
+}
+
+/* O comando div:nth-of-type() possibilita definir a posição da div
+que será modificada no conteúdo*/
+div:nth-of-type(1){
+    background-color:red;
+    color:white;
+    font-family: Arial;
+}
+
+div:nth-of-type(2){
+    background-color:green;
+    color:orange;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+div:nth-of-type(3){
+    background-color: greenyellow;
+    color:purple;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+div:nth-of-type(4){
+    background-color: darkolivegreen;
+    color: silver;
+    font-weight:bold;
+    font-family: Arial;
+}
+
+div:nth-of-type(5){
+    background-color: lightblue;
+    color: teal;
+    font-family: Arial;
+}
+
+div:nth-of-type(2n+1){
+    font-style: italic;
+
+}
+
+/* div:nth-of-type() n = significa um número, 
+palavra-chave ou formula e o th = significa 
+a posição (número ordinais em inglês). :nth-child() = comando
+que seleciona o elemento que é n(numero)th(posição) filho
+dos pais link: https://www.w3schools.com/cssref/sel_nth-of-type.asp*/

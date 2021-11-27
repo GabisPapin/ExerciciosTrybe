@@ -1,0 +1,18 @@
+.header{
+    text-align: center;
+    font-size: 16px;
+}
+
+.toplist{
+    text-align:justify;
+    margin-left: 50px;
+}
+
+li:hover{
+    background-color: cornflowerblue;
+}
+
+li:active{
+    color:darkmagenta;
+}
+
