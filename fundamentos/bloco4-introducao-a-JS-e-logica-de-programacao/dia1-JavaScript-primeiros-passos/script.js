@@ -1,9 +1,22 @@
-let patientId = '50';
-let isEnrolled = true;
-const patientInfo = {
-    firstName: 'Ana',
-    lastName: 'Santos',
-}
-const patientEmail = 'ana@email.com';
+const student = 'Gabriela'
+let notaStudent = 140;
 
-console.log(typeof '50')
+switch (notaStudent) {
+    case 80:
+        console.log('reprovada');
+        break;
+    
+    case 100:
+        console.log('recuperacao');
+        break;
+        
+    case 140:
+        console.log('aprovada');
+        break;
+    
+    default:
+        console.log('nota não cadastrada')
+}
+
+
+
