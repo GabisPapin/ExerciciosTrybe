@@ -83,6 +83,7 @@ console.log(resDivisao);*/
 //Bônus: Buble Sort
 let position = [];
 let numbersDec = [];
+//Ordem crescente:
 for(let index = 1; index < numbers.length; index += 1){
     for(let secondIndex = 0; secondIndex < index; secondIndex += 1){
         if(numbers[index] < numbers[secondIndex]){
@@ -92,14 +93,17 @@ for(let index = 1; index < numbers.length; index += 1){
         }
     }
 }
-/*for(let index = 9; index > numbers.length; index -= 1){
-    for(let secondIndex = 10; secondIndex > index; secondIndex -= 1){
+console.log(numbers);
+
+//Ordem decrescente:
+for(let index = 1; index < numbers.length; index += 1){
+    for(let secondIndex = 0; secondIndex < index; secondIndex += 1){
         if(numbers[index] > numbers[secondIndex]){
-            numbersDec = numbers[index];
+            position = numbers[index];
             numbers[index] = numbers[secondIndex];
-            numbers[secondIndex] = numbersDec;
+            numbers[secondIndex] = position;
         }
     }
-} => Arrumar código para que faça ordem decrescente*/ 
+}
 
 console.log(numbers);
