@@ -65,7 +65,7 @@ for(i = 1; i < numbers.length; i += 1){
 }
 console.log(menorNum);*/
 //Utilizando o for crie um array de 1 até 25:
-let res = [];
+/*let res = [];
 let resDivisao = [];
 
 for(let cc = 1; cc <= 25; cc+= 1){
@@ -78,4 +78,28 @@ for(let i = 0; i < res.length; i += 1){
     resDivisao.push(res[i] / 2);
     
 }
-console.log(resDivisao);
+console.log(resDivisao);*/
+
+//Bônus: Buble Sort
+let position = [];
+let numbersDec = [];
+for(let index = 1; index < numbers.length; index += 1){
+    for(let secondIndex = 0; secondIndex < index; secondIndex += 1){
+        if(numbers[index] < numbers[secondIndex]){
+            position = numbers[index];
+            numbers[index] = numbers[secondIndex];
+            numbers[secondIndex] = position;
+        }
+    }
+}
+/*for(let index = 9; index > numbers.length; index -= 1){
+    for(let secondIndex = 10; secondIndex > index; secondIndex -= 1){
+        if(numbers[index] > numbers[secondIndex]){
+            numbersDec = numbers[index];
+            numbers[index] = numbers[secondIndex];
+            numbers[secondIndex] = numbersDec;
+        }
+    }
+} => Arrumar código para que faça ordem decrescente*/ 
+
+console.log(numbers);
