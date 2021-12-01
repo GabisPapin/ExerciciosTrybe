@@ -1,32 +1,43 @@
-//let n = 5;
+//Exercicio bonus 1: fazer um quadrado com altura e largura 5.
+/*let n = 5;
+let simbolo = '*';
+let linhas = ' ';
 
-/*for(cc = 0; cc < n; cc += 1){
-    console.log("*****");
+for(let cc = 0; cc < n; cc += 1){
+    linhas = linhas + simbolo;
+}
+for(let cc = 0; cc < n; cc+= 1){
+    console.log(linhas);
 }*/
 
-/*for(cc = 0; cc <= n; cc += 1){
-    if(cc === 0){
-        console.log("     " + "*");
-    } if(cc === 2){
-        console.log("    " + "**");
-    } if(cc === 3){
-        console.log("   " + "***");
-    } if(cc === 4) {
-        console.log("  " + "****");
-    } if(cc === 5) {
-        console.log(" " + "*****");
+//Exercicio bonus 2: imprima um triângulo retângulo com 5 asteriscos de base.
+/*let base = 5;
+let simbolo = '*';
+let linhas = '';
+
+for(cc = 0; cc <= base; cc += 1){
+    console.log(linhas);
+    linhas = linhas + simbolo;
+}*/
+
+//Exercicio bonus 3 = inverta o lado do triângulo retângulo com 5 asteriscos de base.
+let base = 5;
+let simbolo = '*';
+let linhas = '';
+let posicao = base;
+
+for(let linhaCont = 0; linhaCont <= base; linhaCont += 1){
+    for(let colunaCont = 0; colunaCont <= base; colunaCont += 1){
+        if(colunaCont < posicao){
+            linhas += '';
+        }else{
+            linhas += simbolo;
+        }
     }
-}*/
-
-/*for(cc = 0; cc <= n; cc += 1){
-    if(cc === 0){
-        console.log("  " + "*" + "  ");
-    }if(cc === 3){
-        console.log(" " + "***" + " ");
-    }else if(cc === 5){
-        console.log("*****");
-    }
-}*/
+    console.log(linhas);
+    linhas = '';
+    posicao = posicao - 1;
+}
 
 /*let n = 7;
 
