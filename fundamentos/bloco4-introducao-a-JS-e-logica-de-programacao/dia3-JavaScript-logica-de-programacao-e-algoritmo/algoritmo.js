@@ -40,7 +40,7 @@ for(let linhaCont = 0; linhaCont <= base; linhaCont += 1){
 }*/
 
 //Exercicio bonus 4: faça uma pirâmide com n asteriscos de base.
-let base = 5;
+/*let base = 5;
 let simbolo = '*';
 let linhas = '';
 let meioPir = 3; //(base + 1)/2
@@ -59,20 +59,29 @@ for(let linhaCont = 0; linhaCont <= meioPir; linhaCont += 1){
     linhas = '';
     ladoDir += 1;
     ladoEsq -= 1;
-}
-
-
-/*let n = 7;
-
-for(cc = 0; cc <= 7; cc += 1){
-    if(cc === 1){
-        console.log("  " + "*" + "  ");
-    }
-    if(cc === 1){
-        console.log(" " + "*" + " " + "*" + " ");
-    }if(cc === 3){
-        console.log(" " + "*" + "  " + "*" + " ");
-    }else if(cc === 5){
-        console.log("*******");
-    }
 }*/
+
+/*Exercicio bonus 5: Faça uma pirâmide com n asteriscos de base que seja vazia no meio.
+ Assuma que o valor de n será sempre ímpar:*/
+
+ let n = 7;
+ let simbolo = '*';
+ let linhas = '';
+ let meioPir = 4; //(n + 1)/2
+ let ladoEsq = meioPir;
+ let ladoDir = meioPir;
+ 
+ for(let linhaCont = 1; linhaCont <= meioPir; linhaCont += 1){
+    linhas = ""; 
+    for(let colunaCont = 1; colunaCont <= n; colunaCont += 1){
+         if(colunaCont == ladoEsq || colunaCont == ladoDir || linhaCont == meioPir){
+             linhas = linhas + simbolo;
+         }else{
+             linhas = linhas + " ";
+         }
+     }
+    
+     console.log(linhas);
+     ladoDir += 1;
+     ladoEsq -= 1;
+ }
