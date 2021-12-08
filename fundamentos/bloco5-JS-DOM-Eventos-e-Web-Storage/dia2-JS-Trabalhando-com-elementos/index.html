@@ -23,10 +23,18 @@
   </main>
 </body>
 <script>
-  console.log(document.getElementById('elementoOndeVoceEsta').parentNode);
+  document.getElementById('elementoOndeVoceEsta').parentNode;
   document.getElementById('pai');
     let colorPai = document.getElementById('pai');
       colorPai.style.color = 'red';
-
+  document.getElementById('elementoOndeVoceEsta').parentNode.firstChild.childNodes;
+  document.getElementById('primeiroFilhoDoFilho');
+    let addText = document.getElementById('primeiroFilhoDoFilho');
+      addText.innerText = "Olá Mundo!!"
+  document.getElementById('pai').firstChild;
+  document.getElementById('elementoOndeVoceEsta').firstElementChild;
+  let thirdChild = document.getElementById('pai').children[2];
+  console.log(thirdChild);
+  
 </script>
 </html>
