@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+li:hover {
+  background: rgb(209, 140, 140);
+}

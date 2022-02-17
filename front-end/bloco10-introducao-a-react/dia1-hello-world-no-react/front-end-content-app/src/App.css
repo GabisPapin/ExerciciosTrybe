@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background: rgb(88, 194, 150);
+}
+
+.title {
+  color: aliceblue;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  border-radius: 10%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background: rgb(88, 194, 150);
+}
